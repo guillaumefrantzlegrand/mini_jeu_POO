@@ -109,4 +109,4 @@ class HumanPlayer < Player
         puts ""
 
       end
-end
+    end
