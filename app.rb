@@ -19,7 +19,7 @@ puts "\n"
 while player1.life_points > 0 && player2.life_points > 0 #boucle pour continuer le combat
     player1.attacks(player2) #Josiane attaque José en premier
     if player2.life_points > 0 
-        player2.attacks(player1) #Le combat continue si José n"a pas perdu toutes ses vies
+        player2.attacks(player1) #Le combat continue si José n"a pas perdu toutes ses
         puts "\n"
         puts "Voici l'état de chaque joueur:"
             player1.show_state
